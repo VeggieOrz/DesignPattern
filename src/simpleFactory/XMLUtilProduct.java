@@ -17,7 +17,7 @@ public class XMLUtilProduct {
 			DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = dFactory.newDocumentBuilder();
 			Document doc;
-			doc = builder.parse(new File("configProduct.xml"));
+			doc = builder.parse(new File("./src/simpleFactory/configProduct.xml"));
 			
 			// 获取包含品牌名称的文本节点
 			NodeList nl = doc.getElementsByTagName("brandName");
