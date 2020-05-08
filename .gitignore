@@ -1,0 +1,19 @@
+# copy from https://github.com/github/gitignore
+
+# -------------------------------
+
+# Compiled class file
+*.class
+
+# log file
+*.log
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar
+*.tar.gz
+*.rar
